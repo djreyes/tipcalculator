@@ -21,6 +21,8 @@
 		3FD221D417E9779300A46002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD221B517E9779300A46002 /* Foundation.framework */; };
 		3FD221DC17E9779300A46002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD221DA17E9779300A46002 /* InfoPlist.strings */; };
 		3FD221DF17E9779300A46002 /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD221DE17E9779300A46002 /* tipcalculatorTests.m */; };
+		3FD221EB17E978A800A46002 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD221E917E978A800A46002 /* TipViewController.m */; };
+		3FD221EC17E978A800A46002 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD221EA17E978A800A46002 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		3FD221DB17E9779300A46002 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FD221DD17E9779300A46002 /* tipcalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tipcalculatorTests.h; sourceTree = "<group>"; };
 		3FD221DE17E9779300A46002 /* tipcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalculatorTests.m; sourceTree = "<group>"; };
+		3FD221E817E978A800A46002 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		3FD221E917E978A800A46002 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		3FD221EA17E978A800A46002 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				3FD221C217E9779300A46002 /* AppDelegate.h */,
 				3FD221C317E9779300A46002 /* AppDelegate.m */,
 				3FD221BA17E9779300A46002 /* Supporting Files */,
+				3FD221E817E978A800A46002 /* TipViewController.h */,
+				3FD221E917E978A800A46002 /* TipViewController.m */,
+				3FD221EA17E978A800A46002 /* TipViewController.xib */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				3FD221C617E9779300A46002 /* Default.png in Resources */,
 				3FD221C817E9779300A46002 /* Default@2x.png in Resources */,
 				3FD221CA17E9779300A46002 /* Default-568h@2x.png in Resources */,
+				3FD221EC17E978A800A46002 /* TipViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				3FD221C017E9779300A46002 /* main.m in Sources */,
 				3FD221C417E9779300A46002 /* AppDelegate.m in Sources */,
+				3FD221EB17E978A800A46002 /* TipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +376,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
 				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
 				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
